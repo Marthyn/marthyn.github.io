@@ -669,19 +669,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 7, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+a {
+  text-decoration: none !important;
+  color: #444; }
+  /* line 11, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  a:visited {
+    color: #444; }
+  /* line 15, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  a.active {
+    color: #2980b9; }
+  /* line 22, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  a:hover, a:focus, a:active {
+    color: #2980b9;
+    background-color: transparent !important; }
+
+/* line 28, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 body {
   background-color: #f5f5f5; }
 
-/* line 12, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 32, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 h1 {
   padding: 20px;
   font-size: 60px;
   font-family: 'Hammersmith One', sans-serif;
-  background-color: rgba(255, 255, 255, 0.8);
-  font-family: 'Alegreya Sans SC', sans-serif; }
+  background-color: rgba(255, 255, 255, 0.8); }
 
-/* line 20, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 40, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .container {
   width: 100%;
   *zoom: 1;
@@ -697,7 +711,7 @@ h1 {
   .container:after {
     clear: both; }
 
-/* line 26, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 46, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .one-center-column {
   float: left;
   display: block;
@@ -706,7 +720,7 @@ h1 {
   /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
   .one-center-column:last-child {
     margin-right: 0; }
-  /* line 29, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 49, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .one-center-column .center {
     float: left;
     display: block;
@@ -720,11 +734,11 @@ h1 {
     /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
     .one-center-column .center:last-child {
       margin-right: 0; }
-    /* line 36, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    /* line 56, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .one-center-column .center button {
       margin-top: 15px !important; }
 
-/* line 42, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 62, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .big-center-column {
   float: left;
   display: block;
@@ -733,60 +747,47 @@ h1 {
   /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
   .big-center-column:last-child {
     margin-right: 0; }
-  /* line 45, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 65, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .big-center-column .side {
     display: block;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 14.70196%; }
     /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
     .big-center-column .side:last-child {
       margin-right: 0; }
-  /* line 50, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 70, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .big-center-column .center {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%;
+    width: 65.88078%;
     padding: 5px; }
     /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
     .big-center-column .center:last-child {
       margin-right: 0; }
-  /* line 55, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 75, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .big-center-column .logo {
     margin-top: 10px;
     margin-left: 10px; }
-  /* line 60, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 80, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .big-center-column nav {
     margin-top: 25px;
     font-family: 'Hammersmith One', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center; }
-    /* line 66, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    /* line 86, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .big-center-column nav ul {
       margin: 0;
       padding: 0;
       list-style: none;
       text-align: center; }
-      /* line 72, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      /* line 92, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
       .big-center-column nav ul li {
         display: inline;
         margin: 0 30px; }
-        /* line 76, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-        .big-center-column nav ul li a {
-          text-decoration: none !important;
-          color: #444; }
-          /* line 80, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-          .big-center-column nav ul li a:visited {
-            color: #444; }
-          /* line 84, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-          .big-center-column nav ul li a.active {
-            color: #2980b9; }
-          /* line 91, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-          .big-center-column nav ul li a:hover, .big-center-column nav ul li a:focus, .big-center-column nav ul li a:active {
-            color: #2980b9; }
   /* line 99, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .big-center-column .phone {
     font-size: 20px;
@@ -814,12 +815,15 @@ h1 {
   .one-column-fill .main-image {
     background-image: url("../images/header.jpg"); }
   /* line 124, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .open-source-image {
+    background-image: url("../images/header2.jpg"); }
+  /* line 128, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .one-column-fill .me-image {
     background-image: url("../images/me2_blur.png"); }
-  /* line 128, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-  .one-column-fill .contact-image {
-    background-image: url("../images/maps-blur.png"); }
   /* line 132, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .contact-image {
+    background-image: url("../images/maps.png"); }
+  /* line 136, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .one-column-fill .big-pic {
     background-size: cover;
     background-repeat: none;
@@ -829,14 +833,27 @@ h1 {
     text-align: center;
     color: black;
     border-top: 1px solid #2c3e50; }
-  /* line 143, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 147, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .one-column-fill .big-pic p {
     padding: 20px;
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     font-family: 'Alegreya Sans SC', sans-serif; }
 
-/* line 151, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 155, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.list {
+  border-bottom: 1px solid #2c3e50;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 4em;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Rosario', sans-serif; }
+  /* line 165, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .list h2 {
+    color: #bdc3c7; }
+
+/* line 171, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .three-column-equal {
   float: left;
   display: block;
@@ -846,12 +863,12 @@ h1 {
   /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
   .three-column-equal:last-child {
     margin-right: 0; }
-  /* line 155, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 175, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .three-column-equal .blocks {
     border-bottom: 1px solid #2c3e50;
     background-color: rgba(255, 255, 255, 0.8);
     display: table; }
-  /* line 161, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  /* line 182, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
   .three-column-equal .block {
     margin-right: 0px !important;
     width: 33.3% !important;
@@ -860,39 +877,72 @@ h1 {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    /* line 166, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    /* line 187, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .three-column-equal .block h2 {
       text-align: center; }
-    /* line 169, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    /* line 190, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .three-column-equal .block p {
       font-size: 20px;
       padding: 5px;
       width: 100%;
-      font-family: 'Alegreya Sans SC', sans-serif; }
-    /* line 176, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      font-family: 'Rosario', sans-serif; }
+    /* line 198, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .three-column-equal .block .green {
       color: #27ae60;
       border-top: 3px solid #27ae60;
       padding-top: 20px; }
-    /* line 182, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      /* line 202, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .green a {
+        color: inherit; }
+    /* line 207, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .three-column-equal .block .blue {
       color: #2980b9;
       border-top: 3px solid #2980b9;
       padding-top: 20px; }
-    /* line 188, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      /* line 211, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .blue a {
+        color: inherit; }
+    /* line 216, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
     .three-column-equal .block .red {
       color: #c0392b;
       border-top: 3px solid #c0392b;
       padding-top: 20px; }
+      /* line 220, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .red a {
+        color: inherit; }
+    /* line 225, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .yellow {
+      color: #f1c40f;
+      border-top: 3px solid #f1c40f;
+      padding-top: 20px; }
+      /* line 229, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .yellow a {
+        color: inherit; }
+    /* line 234, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .purple {
+      color: #8e44ad;
+      border-top: 3px solid #8e44ad;
+      padding-top: 20px; }
+      /* line 238, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .purple a {
+        color: inherit; }
+    /* line 243, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .black {
+      color: #2c3e50;
+      border-top: 3px solid #2c3e50;
+      padding-top: 20px; }
+      /* line 247, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .three-column-equal .block .black a {
+        color: inherit; }
     /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
     .three-column-equal .block:last-child {
       margin-right: 0; }
 
-/* line 199, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 257, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .black-block {
   background-color: #111; }
 
-/* line 203, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 261, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .links {
   text-align: center;
   float: left;
@@ -903,7 +953,7 @@ h1 {
   .links:last-child {
     margin-right: 0; }
 
-/* line 208, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 266, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .links li a, li a:visited {
   background: #202020;
   -webkit-box-shadow: inset 1px 1px 1px 0 rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0 rgba(135, 135, 135, 0.1);
@@ -922,50 +972,54 @@ h1 {
   padding: 2%;
   display: inline-block; }
 
-/* line 233, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
-.links li a:focus, li a:hover, li a:active {
+/* line 292, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.links li a:focus, .links li a:hover, .links li a:active {
   background-color: #404040 !important; }
 
-/* line 234, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 294, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .deviantart {
   background: #202020 url("../images/links/dva.png") center no-repeat !important; }
 
-/* line 235, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 295, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .twitter {
   background: #202020 url("../images/links/twitter.png") center no-repeat !important; }
 
-/* line 236, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 296, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.hoppinger {
+  background: #202020 url("../images/links/hoppinger.png") center no-repeat !important; }
+
+/* line 297, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .flickr {
   background: #202020 url("../images/links/flickr.png") center no-repeat !important; }
 
-/* line 237, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 298, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .github {
   background: #202020 url("../images/links/github.png") center no-repeat !important; }
 
-/* line 238, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 299, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .lastfm {
   background: #202020 url("../images/links/lastfm.png") center no-repeat !important; }
 
-/* line 239, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 300, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .tumblr {
   background: #202020 url("../images/links/tumblr.png") center no-repeat !important; }
 
-/* line 240, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 301, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .facebook {
   background: #202020 url("../images/links/facebook.png") center no-repeat !important; }
 
-/* line 241, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 302, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .linkedin {
   background: #202020 url("../images/links/linkedin.png") center no-repeat !important; }
 
-/* line 242, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 303, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .spotify {
   background: #202020 url("../images/links/spotify.png") center no-repeat !important; }
 
-/* line 243, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 304, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .duolingo {
   background: #202020 url("../images/links/duolingo.png") center no-repeat !important; }
 
-/* line 244, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+/* line 305, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
 .codecademy {
   background: #202020 url("../images/links/codecademy.png") center no-repeat !important; }
