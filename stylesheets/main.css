@@ -1,0 +1,971 @@
+/* line 1, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/extends/_button.scss */
+button,
+input[type="submit"] {
+  border: 1px solid #2459a6;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #89a8d5;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #477dca;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #477dca), color-stop(100%, #2760b2));
+  background-image: -webkit-linear-gradient(#477dca, #2760b2);
+  background-image: linear-gradient(#477dca, #2760b2);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #1b4f9a;
+  background-clip: padding-box;
+  font-size: 1em; }
+  /* line 79, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_button.scss */
+  button:hover:not(:disabled),
+  input[type="submit"]:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #628cc8;
+    cursor: pointer;
+    background-color: #3c71bb;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c71bb), color-stop(100%, #255aa5));
+    background-image: -webkit-linear-gradient(#3c71bb, #255aa5);
+    background-image: linear-gradient(#3c71bb, #255aa5); }
+  /* line 95, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_button.scss */
+  button:active:not(:disabled),
+  input[type="submit"]:active:not(:disabled) {
+    border: 1px solid #2459a6;
+    box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397, 0 1px 1px 0 #eeeeee; }
+  /* line 38, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_button.scss */
+  button:disabled,
+  input[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+/* line 1, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+body {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em; }
+
+/* line 9, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+/* line 16, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h1 {
+  font-size: 2.25em; }
+
+/* line 20, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h2 {
+  font-size: 2em; }
+
+/* line 24, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h3 {
+  font-size: 1.75em; }
+
+/* line 28, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h4 {
+  font-size: 1.5em; }
+
+/* line 32, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h5 {
+  font-size: 1.25em; }
+
+/* line 36, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 40, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 44, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear; }
+  /* line 49, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+  a:hover {
+    color: #2c5999; }
+  /* line 53, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+  a:active, a:focus {
+    color: #2c5999;
+    outline: none; }
+
+/* line 59, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+hr {
+  border-bottom: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 67, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+img {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 72, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #dddddd;
+  cursor: help; }
+
+/* line 77, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+address {
+  display: block;
+  margin: 0 0 0.75em; }
+
+/* line 82, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+hgroup {
+  margin-bottom: 0.75em; }
+
+/* line 86, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+del {
+  color: #595959; }
+
+/* line 90, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+blockquote {
+  border-left: 2px solid #dddddd;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+/* line 97, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+cite {
+  color: #737373;
+  font-style: italic; }
+  /* line 101, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_typography.scss */
+  cite:before {
+    content: '\2014 \00A0'; }
+
+/* line 10, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em; }
+
+/* line 19, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em; }
+
+/* line 25, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em; }
+  /* line 29, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+  label.required:after {
+    content: "*"; }
+  /* line 33, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 39, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+textarea,
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 0.1875em;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  resize: vertical;
+  width: 100%; }
+  /* line 53, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+  textarea:hover,
+  input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover {
+    border-color: #c4c4c4; }
+  /* line 57, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+  textarea:focus,
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 64, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 68, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 73, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="file"] {
+  width: 100%; }
+
+/* line 77, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+select {
+  width: auto;
+  margin-bottom: 1.5em; }
+
+/* line 83, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_forms.scss */
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* line 1, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_tables.scss */
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75em 0; }
+
+/* line 20, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_tables.scss */
+tr, td, th {
+  vertical-align: middle; }
+
+/* line 1, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_lists.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+/* line 19, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_lists.scss */
+dl {
+  line-height: 1.5em;
+  margin-bottom: 0.75em; }
+  /* line 23, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_flashes.scss */
+.error, #flash_failure {
+  background: #fbe3e4;
+  color: #96151b;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+  .error a, #flash_failure a {
+    color: #6a0f13; }
+    /* line 11, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+    .error a:hover, #flash_failure a:hover {
+      color: #110203; }
+
+/* line 5, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_flashes.scss */
+.notice, #flash_notice {
+  background: #fff6bf;
+  color: #8c7800;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+  .notice a, #flash_notice a {
+    color: #594c00; }
+    /* line 11, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+    .notice a:hover, #flash_notice a:hover {
+      color: black; }
+
+/* line 9, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/_flashes.scss */
+.success, #flash_success {
+  background: #e6efc2;
+  color: #56651a;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+  .success a, #flash_success a {
+    color: #333c10; }
+    /* line 11, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/bitters/mixins/_flash.scss */
+    .success a:hover, #flash_success a:hover {
+      color: black; }
+
+/* line 2, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 22, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 125, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 154, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 190, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 270, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 282, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 297, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 307, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 317, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 341, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 350, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 8, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+body {
+  background-color: #f5f5f5; }
+
+/* line 12, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+h1 {
+  padding: 20px;
+  font-size: 60px;
+  font-family: 'Hammersmith One', sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Alegreya Sans SC', sans-serif; }
+
+/* line 20, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.container {
+  width: 100%;
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: 0; }
+  /* line 18, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  /* line 23, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .container:after {
+    clear: both; }
+
+/* line 26, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.one-center-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+  .one-center-column:last-child {
+    margin-right: 0; }
+  /* line 29, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-center-column .center {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: center;
+    background-color: #202020;
+    padding: 20px;
+    height: 100%; }
+    /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .one-center-column .center:last-child {
+      margin-right: 0; }
+    /* line 36, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .one-center-column .center button {
+      margin-top: 15px !important; }
+
+/* line 42, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.big-center-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+  .big-center-column:last-child {
+    margin-right: 0; }
+  /* line 45, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .big-center-column .side {
+    display: block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .big-center-column .side:last-child {
+      margin-right: 0; }
+  /* line 50, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .big-center-column .center {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 5px; }
+    /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .big-center-column .center:last-child {
+      margin-right: 0; }
+  /* line 55, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .big-center-column .logo {
+    margin-top: 10px;
+    margin-left: 10px; }
+  /* line 60, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .big-center-column nav {
+    margin-top: 25px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+    /* line 66, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .big-center-column nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center; }
+      /* line 72, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .big-center-column nav ul li {
+        display: inline;
+        margin: 0 30px; }
+        /* line 76, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+        .big-center-column nav ul li a {
+          text-decoration: none !important;
+          color: #444; }
+          /* line 80, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+          .big-center-column nav ul li a:visited {
+            color: #444; }
+          /* line 84, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+          .big-center-column nav ul li a.active {
+            color: #2980b9; }
+          /* line 91, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+          .big-center-column nav ul li a:hover, .big-center-column nav ul li a:focus, .big-center-column nav ul li a:active {
+            color: #2980b9; }
+  /* line 99, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .big-center-column .phone {
+    font-size: 20px;
+    padding: 20px;
+    text-align: right; }
+    /* line 103, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .big-center-column .phone a {
+      text-decoration: none !important;
+      color: #444; }
+      /* line 109, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+      .big-center-column .phone a:hover, .big-center-column .phone a:focus, .big-center-column .phone a:active {
+        color: #2980b9; }
+
+/* line 116, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.one-column-fill {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+  .one-column-fill:last-child {
+    margin-right: 0; }
+  /* line 120, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .main-image {
+    background-image: url("../images/header.jpg"); }
+  /* line 124, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .me-image {
+    background-image: url("../images/me2_blur.png"); }
+  /* line 128, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .contact-image {
+    background-image: url("../images/maps-blur.png"); }
+  /* line 132, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .big-pic {
+    background-size: cover;
+    background-repeat: none;
+    font-family: 'Hammersmith One', sans-serif;
+    height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    border-top: 1px solid #2c3e50; }
+  /* line 143, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .one-column-fill .big-pic p {
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Alegreya Sans SC', sans-serif; }
+
+/* line 151, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.three-column-equal {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+  .three-column-equal:last-child {
+    margin-right: 0; }
+  /* line 155, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .three-column-equal .blocks {
+    border-bottom: 1px solid #2c3e50;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: table; }
+  /* line 161, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+  .three-column-equal .block {
+    margin-right: 0px !important;
+    width: 33.3% !important;
+    margin-right: 0;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    /* line 166, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block h2 {
+      text-align: center; }
+    /* line 169, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block p {
+      font-size: 20px;
+      padding: 5px;
+      width: 100%;
+      font-family: 'Alegreya Sans SC', sans-serif; }
+    /* line 176, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .green {
+      color: #27ae60;
+      border-top: 3px solid #27ae60;
+      padding-top: 20px; }
+    /* line 182, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .blue {
+      color: #2980b9;
+      border-top: 3px solid #2980b9;
+      padding-top: 20px; }
+    /* line 188, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+    .three-column-equal .block .red {
+      color: #c0392b;
+      border-top: 3px solid #c0392b;
+      padding-top: 20px; }
+    /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .three-column-equal .block:last-child {
+      margin-right: 0; }
+
+/* line 199, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.black-block {
+  background-color: #111; }
+
+/* line 203, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.links {
+  text-align: center;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  /* line 40, /Users/Marthyn/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+  .links:last-child {
+    margin-right: 0; }
+
+/* line 208, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.links li a, li a:visited {
+  background: #202020;
+  -webkit-box-shadow: inset 1px 1px 1px 0 rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0 rgba(135, 135, 135, 0.1);
+  -moz-box-shadow: inset 1px 1px 1px 0 rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0 rgba(135, 135, 135, 0.1);
+  box-shadow: inset 1px 1px 1px 0 rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0 rgba(135, 135, 135, 0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999em;
+  height: 100px;
+  width: 90%;
+  margin-top: 25px;
+  padding: 2%;
+  display: inline-block; }
+
+/* line 233, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.links li a:focus, li a:hover, li a:active {
+  background-color: #404040 !important; }
+
+/* line 234, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.deviantart {
+  background: #202020 url("../images/links/dva.png") center no-repeat !important; }
+
+/* line 235, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.twitter {
+  background: #202020 url("../images/links/twitter.png") center no-repeat !important; }
+
+/* line 236, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.flickr {
+  background: #202020 url("../images/links/flickr.png") center no-repeat !important; }
+
+/* line 237, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.github {
+  background: #202020 url("../images/links/github.png") center no-repeat !important; }
+
+/* line 238, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.lastfm {
+  background: #202020 url("../images/links/lastfm.png") center no-repeat !important; }
+
+/* line 239, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.tumblr {
+  background: #202020 url("../images/links/tumblr.png") center no-repeat !important; }
+
+/* line 240, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.facebook {
+  background: #202020 url("../images/links/facebook.png") center no-repeat !important; }
+
+/* line 241, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.linkedin {
+  background: #202020 url("../images/links/linkedin.png") center no-repeat !important; }
+
+/* line 242, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.spotify {
+  background: #202020 url("../images/links/spotify.png") center no-repeat !important; }
+
+/* line 243, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.duolingo {
+  background: #202020 url("../images/links/duolingo.png") center no-repeat !important; }
+
+/* line 244, /Users/Marthyn/Code/Personal/marthyn.github.io/source/stylesheets/main.css.scss */
+.codecademy {
+  background: #202020 url("../images/links/codecademy.png") center no-repeat !important; }
