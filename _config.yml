@@ -1,6 +1,11 @@
 # Site
 title:              Marthyn.nl
-bio:                'My name is Marthyn Olthof and I am a software developer working at Hoppinger, doing freelance development work and open source stuff in Ruby, Rails, Javascript and aspiring to learn Prolog, Elixir, Haskell. Other than programming I love to watch sports, especially with engines! The topic's I write about vary from tech, cooking, comics, movies, sports and who knows whatever I'll find interesting!'
+bio:                |
+  My name is Marthyn Olthof and I am a software developer working at Hoppinger,
+  doing freelance development work and open source stuff in Ruby, Rails, Javascript
+  and aspiring to learn Prolog, Elixir, Haskell. Other than programming I love to watch sports,
+  especially with engines! The topic's I write about vary from tech, cooking, comics, movies,
+  sports and who knows whatever I'll find interesting!'
 description:        "Marthyn Olthof, software developer, home cook, runner, motorsports fan"
 reading_time:       true
 words_per_minute:   150
