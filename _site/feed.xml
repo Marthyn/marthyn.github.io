@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-06-18T14:30:10+02:00</updated><id>http://localhost:4000/</id><title>Marthyn.nl</title><subtitle>Marthyn Olthof, software developer, home cook, runner, motorsports fan</subtitle><entry><title>Joy of Coding 2016</title><link href="http://localhost:4000/joy-of-coding/" rel="alternate" type="text/html" title="Joy of Coding 2016" /><published>2016-06-17T00:00:00+02:00</published><updated>2016-06-17T00:00:00+02:00</updated><id>http://localhost:4000/joy-of-coding</id><content type="html" xml:base="http://localhost:4000/joy-of-coding/">&lt;blockquote&gt;
+  &lt;p&gt;Celebrating the art, craft, science and joy of software development&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A conference not purely to learn something but to remember after many many busy weeks/months of programming that there’s not only deadlines, demanding customers and frustrating problems to solve. Programming is joyful and we should have more fun with it!&lt;/p&gt;
+
+&lt;p&gt;For me this edition was as, if not more, inspiring as the last time. Last year it inspired me to develop a small &lt;a href=&quot;http://localhost:4000/hubot-praise&quot;&gt;Hubot plugin&lt;/a&gt; because of a talk by Ben Straub! This year once again there were many fun and inspiring talks, here is a list of my favourites.&lt;/p&gt;
+
+&lt;h1 id=&quot;philip-wadler&quot;&gt;Philip Wadler&lt;/h1&gt;
+
+&lt;p&gt;Professor at Edinbrough university, a very very smart man. In the beginning I had quite a hard time following his talk on category theory. And I’d have trouble explaining to you what it is exactly. But it got my head churning and it was actually a great start of the day. It inspired me to read more into this category theory and in general to read more about origins of programming languages.&lt;/p&gt;
+
+&lt;p&gt;It also helped that he is witty guy and he dressed as Lambda Man!!
+&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;corey-haines&quot;&gt;Corey Haines&lt;/h1&gt;
+
+&lt;h1 id=&quot;peter-hilton&quot;&gt;Peter Hilton&lt;/h1&gt;
+
+&lt;h1 id=&quot;hilary-parker&quot;&gt;Hilary Parker&lt;/h1&gt;</content><category term="joyofcoding" /><category term="fun" /><category term="conference" /><summary>2017 was my second year of the awesome 1 day conference Joy of Coding. It inspired me a lot, here is a recap of the most interesting things I learned</summary></entry><entry><title>Hubot praise</title><link href="http://localhost:4000/hubot-praise/" rel="alternate" type="text/html" title="Hubot praise" /><published>2015-08-04T00:00:00+02:00</published><updated>2015-08-04T00:00:00+02:00</updated><id>http://localhost:4000/hubot-praise</id><content type="html" xml:base="http://localhost:4000/hubot-praise/">&lt;center&gt;&lt;b&gt;hubot-praise&lt;/b&gt; is a Hubot plugin for praising your colleagues.&lt;/center&gt;
+
+&lt;p&gt;Do you use slack or hipchat or any other messaging platform that supports hubot and you wanna compliment or thank or just acknowledge the people you communicate with? Use hubot-praise, they get a random message telling them they’re awesome with an amazing GIF with it.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to use&lt;/h2&gt;
+
+&lt;p&gt;Between current user @cortana and @masterchief&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;cortana&amp;gt; &lt;/span&gt;hubot high five @cortana
+&lt;span class=&quot;gp&quot;&gt;hubot&amp;gt; &lt;/span&gt;you can’t high five yourself. that’s just clapping
+&lt;span class=&quot;gp&quot;&gt;cortana&amp;gt; &lt;/span&gt;hubot praise @masterchief
+&lt;span class=&quot;gp&quot;&gt;hubot&amp;gt; &lt;/span&gt;@cortana high fives @masterchief
+&lt;span class=&quot;gp&quot;&gt;hubot&amp;gt; &lt;/span&gt;The world is a better place with you around, @masterchief
+&lt;span class=&quot;gp&quot;&gt;hubot&amp;gt; &lt;/span&gt;http://i.giphy.com/3o85xr46bezqkTazsc.gif
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.giphy.com/3o85xr46bezqkTazsc.gif&quot; alt=&quot;yougotitdude&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;you-wanna-help&quot;&gt;You wanna help?&lt;/h2&gt;
+
+&lt;p&gt;There are tests! So run them when you are working on the code. Other than that you know the drill, fork it, pull request it and tada!&lt;/p&gt;
+
+&lt;h3 id=&quot;add-more-gifs&quot;&gt;Add more gifs!&lt;/h3&gt;
+
+&lt;p&gt;We can always use more gifs so if you find an awesome high five gif thats not in here already please add it!&lt;/p&gt;
+
+&lt;h3 id=&quot;add-more-praise&quot;&gt;Add more praise!&lt;/h3&gt;
+
+&lt;p&gt;You can also add a new praise line, something you would say to someone who’s being totally awesome!&lt;/p&gt;
+
+&lt;h2 id=&quot;authors-and-contributors&quot;&gt;Authors and Contributors&lt;/h2&gt;
+
+&lt;p&gt;@marthyn
+@rolfvandekrol&lt;/p&gt;
+
+&lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
+
+&lt;p&gt;You can always open up an issue &lt;a href=&quot;https://github.com/Marthyn/hubot-praise/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+
+&lt;p&gt;First and foremost, inspiration came from &lt;a href=&quot;https://github.com/ben&quot;&gt;Ben Straub&lt;/a&gt;. He gave a talk at (Joy of coding about &lt;a href=&quot;https://twitter.com/joyofcoding&quot;&gt;Hubot&lt;/a&gt;. We left out the gift cards for now though :smile:. You can view the slides &lt;a href=&quot;http://ben.straub.cc/talks/robots/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This script was heavily inspired by &lt;a href=&quot;https://github.com/hubot-scripts/hubot-motivate&quot;&gt;hubot-motivate&lt;/a&gt; and &lt;a href=&quot;https://github.com/wjbeckett/hubot-highfive&quot;&gt;hubot-highfive&lt;/a&gt;. I used some code and some images and texts, but extended it with storage and more images and texts.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://i.imgur.com/LgXev.gif&quot;&gt;&lt;img src=&quot;http://i.imgur.com/LgXev.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://stream1.gifsoup.com/view1/1148368/top-gun-high-five-o.gif&quot;&gt;&lt;img src=&quot;http://stream1.gifsoup.com/view1/1148368/top-gun-high-five-o.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/diKF8kxuomAxy.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/diKF8kxuomAxy.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/aT8xFndP3Kpeo.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/aT8xFndP3Kpeo.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/9o67upvAnOqRy.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/9o67upvAnOqRy.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/C4lSxWjqSJLfG.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/C4lSxWjqSJLfG.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/C9xw4gfOpfW6c.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/C9xw4gfOpfW6c.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/gXBmPuqnc4cve.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/gXBmPuqnc4cve.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/hxnQBgpL29lyU.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/hxnQBgpL29lyU.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/112VS6QqBw52Ks.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/112VS6QqBw52Ks.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/cJgkhpLgsuTkY.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/cJgkhpLgsuTkY.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/1HPzxMBCTvjMs.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/1HPzxMBCTvjMs.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/Dwu7IpRyVA5Nu.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/Dwu7IpRyVA5Nu.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/LdnaND03GRE9q.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/LdnaND03GRE9q.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/NjOk8dfSlUv1S.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/NjOk8dfSlUv1S.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/RLn2w2fLpcwTu.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/RLn2w2fLpcwTu.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/rM9Cl7MZphBqU.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/rM9Cl7MZphBqU.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/X7xPZ5jUGLUrK.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/X7xPZ5jUGLUrK.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/4SS0kfzRqfBf2.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/4SS0kfzRqfBf2.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/IxJMT1ugyBMdy.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/IxJMT1ugyBMdy.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/DohrJX1h2W5RC.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/DohrJX1h2W5RC.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/mHEes6Quf8XK0.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/mHEes6Quf8XK0.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/10LKovKon8DENq.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/10LKovKon8DENq.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/zl170rmVMCpEY.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/zl170rmVMCpEY.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/3tpinSPvGf8MU.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/3tpinSPvGf8MU.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/Ch7el3epcW3Wo.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/Ch7el3epcW3Wo.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/djc4SxBZtVHhe.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/djc4SxBZtVHhe.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/3o85xr46bezqkTazsc.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/3o85xr46bezqkTazsc.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/VtLkuCkObNC6c.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/VtLkuCkObNC6c.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/10LNj580n9OmiI.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/10LNj580n9OmiI.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/1GlDW1HBD3q2A.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/1GlDW1HBD3q2A.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/tcGxgQGmE2d2w.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/tcGxgQGmE2d2w.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://i.giphy.com/xfqZR7wRwOIx2.gif&quot;&gt;&lt;img src=&quot;http://i.giphy.com/xfqZR7wRwOIx2.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;GIF AWESOMENESS (submit a PR if you miss one)&lt;/figcaption&gt;
+&lt;/figure&gt;</content><category term="hubot" /><category term="javascript" /><category term="slack" /><category term="open-source" /><category term="hubot" /><category term="joyofcoding" /><summary>Api wrapper for the Exact Online API</summary></entry><entry><title>Elmas</title><link href="http://localhost:4000/elmas/" rel="alternate" type="text/html" title="Elmas" /><published>2015-07-01T00:00:00+02:00</published><updated>2015-07-01T00:00:00+02:00</updated><id>http://localhost:4000/elmas</id><content type="html" xml:base="http://localhost:4000/elmas/">&lt;center&gt;&lt;b&gt;Elmas&lt;/b&gt; is an open source api wrapper written in Ruby.&lt;/center&gt;
+
+&lt;p&gt;Elmas is a Rubygem I created by myself during my time at Hoppinger. It’s an API wrapper for the Exact Online system. The challenge here was to set it up so resources would take minimal time to add, so the whole wrapper is very abstract and I used a lot of meta programming in it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;help&quot;&gt;Help&lt;/h2&gt;
+
+&lt;p&gt;If you want to create an app for the Exact App store in Ruby this is where you should start, it has full support from Exact themselves, and is actively maintained by myself. If you have a feature request please go to &lt;a href=&quot;Elmas&quot;&gt;https://github.com/exactonline/exactonline-api-ruby-client&lt;/a&gt;. For the near feature we want to implement the new Webhook feature.&lt;/p&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+
+&lt;p&gt;We created this API wrapper for the website Gites, a major player in the holiday homes market, winner of many awards. They wanted to switch from Xero to Exact online and needed a way to store customer and invoice information automatically in Exact. Through this gem it made it a lot easier.&lt;/p&gt;</content><category term="exact" /><category term="ruby" /><category term="rails" /><category term="open-source" /><category term="hoppinger" /><summary>Api wrapper for the Exact Online API</summary></entry><entry><title>Checking the presence of values in Ruby and Rails</title><link href="http://localhost:4000/checking-presence-of-values-in-ruby-rails/" rel="alternate" type="text/html" title="Checking the presence of values in Ruby and Rails" /><published>2015-05-06T00:00:00+02:00</published><updated>2015-05-06T00:00:00+02:00</updated><id>http://localhost:4000/checking-presence-of-values-in-ruby-rails</id><content type="html" xml:base="http://localhost:4000/checking-presence-of-values-in-ruby-rails/">&lt;p&gt;Rails provides you with a few methods to check if a variable has a value or contents or is nil. Methods like any?, present? or nil?. When working with one type of variable they usually work as you expect, but i’ve come across situations where they might not work as you expect!&lt;/p&gt;
+
+&lt;p&gt;I was working on a project where i had a dynamic component where i needed to check if a value was not nil. But the value could be a string, number or boolean. And when it was a boolean it always failed. So i went to inspect why. Turns out, a boolean with value False returns false when checked with present?. Which i find ridiculous but it is what it is!
+Why is that though? I assume present? is false when there’s no value attached to the variable. False is a value so why is it still false? Present? is the opposite of blank? and the Rails docs says this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;blank?() public
+An object is blank if it’s false, empty, or a whitespace string. For example, ”, ‘ ’, nil, [], and {} are all blank.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;False just is blank or not present. So you could say just use nil?. But no because that returns false when its an empty string, and in my case that should be true. So i’m stuck between a rock and crazy place.
+I just decided to create my own method.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;present?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“”&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So a value = false would return true in this method, and an empty string would too. To clarify when what method for checking existence of values returns what i copied a table from this page.&lt;/p&gt;
+
+&lt;p&gt;Just keep this table next to you and you’ll be fine!
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*YWr_HNb7v_IX4cxbdaZ4QA.png&quot; alt=&quot;table&quot; /&gt;&lt;/p&gt;</content><category term="ruby" /><category term="rails" /><summary>Rails provides you with a few methods to check if a variable has a value or contents or is nil. Methods like any?, present? or nil?. When working with one type of variable they usually work as you expect, but i’ve come across situations where they might not work as you expect!</summary></entry><entry><title>My Adventures with Dot &amp;amp; Dash</title><link href="http://localhost:4000/my-adventures-with-dot-and-dash/" rel="alternate" type="text/html" title="My Adventures with Dot &amp; Dash" /><published>2015-02-15T00:00:00+01:00</published><updated>2015-02-15T00:00:00+01:00</updated><id>http://localhost:4000/my-adventures-with-dot-and-dash</id><content type="html" xml:base="http://localhost:4000/my-adventures-with-dot-and-dash/">&lt;p&gt;If you’ve been on the internet in 2014 you might’ve read a lot about kids learning to program. Hour of code for example was an initiative that even Obama supported and participated in.
+We’re all aware that computers have taken over our world and they all need software that needs to be programmed, to do so we need people, skilled people and a lot of them. Right now there aren’t enough, and the only way to fix it is by teaching kids on a young age how to do it.
+In my opinion programming should be part of the basic curriculum, like maths and literature. There are perfect (online) learning methods for that. Which are simple and fun but do work. (Codeschool, Treehouse, etc..).
+But now even our youngest, as young as 5 years old, can learn the basic principles behind programming, in an awesome and fun way!&lt;/p&gt;
+
+&lt;h1 id=&quot;at-first-sight&quot;&gt;At first sight&lt;/h1&gt;
+&lt;iframe name=&quot;f38599649b8d1c8&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; title=&quot;fb:video Facebook Social Plugin&quot; src=&quot;https://www.facebook.com/v2.3/plugins/video.php?app_id=52049637695&amp;amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df6958db5cd89dc%26domain%3Dcdn.embedly.com%26origin%3Dhttps%253A%252F%252Fcdn.embedly.com%252Ff32267af5985cd8%26relation%3Dparent.parent&amp;amp;container_width=350&amp;amp;href=https%3A%2F%2Fwww.facebook.com%2Fvideo.php%3Fv%3D10204597445969436%26set%3Dvb.1633045538%26type%3D2%26theater&amp;amp;locale=en_US&amp;amp;sdk=joey&quot; style=&quot;border: none; visibility: visible; width: 100%; height: 400px;&quot; class=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;h1 id=&quot;first-time-playing-around-with-dash&quot;&gt;First time playing around with Dash&lt;/h1&gt;
+&lt;p&gt;At first sight they’re just very cute toys, with shiny lights, fun sounds and you can drive them around the room with the basic app GO. This is for the first amazement and already has a big wow factor. You can let Dash dance and Dot flicker his lights and even let them both sound like an elefantie. The video on the left shows me doing that for the first time (filmed in first person with the smartphone mount).
+But that’s only the beginning, i mean we’ve all played around with a remote controlled car, this is not that much more you’d think. But that’s where you are wrong because these robots are programmable. There are different apps that let you do that, first of all there’s Path.&lt;/p&gt;
+
+&lt;h1 id=&quot;paths&quot;&gt;Paths&lt;/h1&gt;
+
+&lt;p&gt;Path, as you might’ve guessed, let’s you draw paths that Dash can walk. (screenshot) You could make an obstacle course and let Dash drive around it carefully with your drawn path. This is not really programming yet of course, but it provides more control than the Go app. It let’s you repeat a certain path over and over again, which is a segway into programming of course.
+Xylophones&lt;/p&gt;
+
+&lt;h1 id=&quot;real-programming&quot;&gt;Real programming&lt;/h1&gt;
+&lt;p&gt;Finally there’s the creme de la creme, Blockly. An app that let’s you build sequences with if, then, else, while statements. This is done very simplistic with blocks that you can drag, and there are only two sequences per program that you can make. But it’s a real intro into programming and teaches you about te basic principles and algorithms.&lt;/p&gt;
+
+&lt;h1 id=&quot;pathfinding&quot;&gt;Pathfinding&lt;/h1&gt;
+&lt;p&gt;While digging through the demo projects I found a very interesting one that showed a principle I only learned in college, pathfinding. In my second year of college I had to design a program for the Mars Rover® to roam the surface of Mars, using the pathfinding principle. “Drive until obstacle, turn 90º left and continue driving until you reach an obstacle”. This program is featured as a demo project in the Blockly app and works the same way. Although this is simplified, keep in mind i had to learn this when i was 20 and these robots are for kids 5–12.&lt;/p&gt;
+
+&lt;h1 id=&quot;defacto&quot;&gt;Defacto&lt;/h1&gt;
+&lt;p&gt;As you might know i currently work at Defacto, a company that’s always on the cutting edge of technology. (They were the first in Groningen to livestream football matches, where only 17 people watched). That’s why we had the freedom 2 years ago to just order these, after only seeing a promo video. We were immediately hyped! So we ordered and waited, and actually forgot about them a little bit until last christmas, or right before christmas when our boss had a surprise. The robots finally came.
+Then we let the kids of employees play with them:&lt;/p&gt;
+
+&lt;iframe scrolling=&quot;no&quot; frameborder=&quot;0&quot; id=&quot;player&quot; src=&quot;https://player.vimeo.com/video/114753160?referrer=https%3A%2F%2Fmedium.com%2Fmedia%2F2126e889780f5a1c93b7c49de25155a6%3FmaxWidth%3D640&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;After that the question was, what are we going to do with them now… and that’s when I came up with the idea to go to schools and let kids there do assignments with them. I took some assignments from www.makewonder.com, thought of some myself and tested them out. Now we’re gonna go to schools with two sets of robots, 2 people and let 10 kids learn the basics of programming in 4 sessions of 2 hours. Interested? Let me know!&lt;/p&gt;
+
+&lt;h1 id=&quot;important&quot;&gt;Important&lt;/h1&gt;
+
+&lt;p&gt;I think it’s very important that kids, especially my future kids know basic programming principles, even though they might not end up doing it for a living. It teaches you very important logic skills which are applicable in many areas. Programming and our kids are the future.&lt;/p&gt;</content><category term="robots" /><category term="dash" /><category term="dot" /><summary>Have you heard of Dot &amp; Dash? The Robots who teach kids how to program? They’re awesome and through my job I got to play with them</summary></entry><entry><title>Property or Observes? EmberJS Explained</title><link href="http://localhost:4000/property-or-observes-in-ember-js/" rel="alternate" type="text/html" title="Property or Observes? EmberJS Explained" /><published>2014-04-06T00:00:00+02:00</published><updated>2014-04-06T00:00:00+02:00</updated><id>http://localhost:4000/property-or-observes-in-ember-js</id><content type="html" xml:base="http://localhost:4000/property-or-observes-in-ember-js/">&lt;p&gt;While programming for Learning Spaces I had a lot of trouble choosing when to use &lt;code class=&quot;highlighter-rouge&quot;&gt;.property(‘property to observe’)&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.observes(‘property to observe’)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;They behave the same, as in they run whenever the property between the &lt;code class=&quot;highlighter-rouge&quot;&gt;’ ‘ &lt;/code&gt; changes. But there’s a difference and you should know that difference.&lt;/p&gt;
+
+&lt;p&gt;Basically when you only manipulate other things you need &lt;code class=&quot;highlighter-rouge&quot;&gt;observes&lt;/code&gt; and if you return something which you need later you need to use &lt;code class=&quot;highlighter-rouge&quot;&gt;property&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So let’s say you have a BookController with some properties.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;App.BookController = Ember.ObjectController.extend({
+ setPage: function() {
+ var pageNumber = this.get(‘pageNumber’);
+ this.set(‘page’, this.store.find(‘page’, pageNumber));
+ }.observes(‘pageNumber’),
+
+ footNotes = function() {
+ return this.get(‘page.footNotes’)
+ }.property(‘page’),
+
+ copyright = function() {
+ return ‘(c) Marthyn Olthof — Learning Spaces’;
+ }.property(),
+});
+
+
+setPage: function () {
+ var pageNumber = this.get(‘pageNumber’);
+ this.set(‘page’, this.store.find(‘page’, pageNumber));
+}.observes(‘pageNumber’),
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a function which sets the page property, but it doesn’t return anything. Therefor we can just use the &lt;code class=&quot;highlighter-rouge&quot;&gt;observes(‘pageNumber’)&lt;/code&gt;. Which runs every time the property &lt;code class=&quot;highlighter-rouge&quot;&gt;pageNumber&lt;/code&gt; changes. But it’s impossible to bind this to a view!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;footNotes = function () {
+ return this.get(‘page.footNotes’);
+}.property(‘page’),
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here &lt;code class=&quot;highlighter-rouge&quot;&gt;footNotes&lt;/code&gt; is a property which returns the footnotes of a page. To update this property everytime the page changes and bind it to a view. We use &lt;code class=&quot;highlighter-rouge&quot;&gt;property(‘page’)&lt;/code&gt; with a binding to the property &lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt;. So everytime the page property changes the footnotes change too. Also you can now bind this to your view as such ``&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;copyright = function() {
+ return ‘(c) Marthyn Olthof — Learning Spaces’;
+}.property(),
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Finally we have a property which doesn’t change at all. Therefor we use &lt;code class=&quot;highlighter-rouge&quot;&gt;property()&lt;/code&gt; without any binding. We can bind this to a view with  and it will not change unless the controller is initialized again.&lt;/p&gt;
+
+&lt;p&gt;For review, here is a table:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*a--CwXE1k8H1LEvfQ9E-rA.png&quot; alt=&quot;table&quot; /&gt;&lt;/p&gt;</content><category term="ember" /><category term="javascript" /><category term="emberjs" /><summary>While programming for Learning Spaces I had a lot of trouble choosing when to use `.property(‘property to observe’)` or `.observes(‘property to observe’)`</summary></entry><entry><title>Hours</title><link href="http://localhost:4000/hours-project/" rel="alternate" type="text/html" title="Hours" /><published>2014-04-06T00:00:00+02:00</published><updated>2014-04-06T00:00:00+02:00</updated><id>http://localhost:4000/hours-project</id><content type="html" xml:base="http://localhost:4000/hours-project/">&lt;center&gt;&lt;b&gt;Hours&lt;/b&gt; is an open source simple time tracking app.&lt;/center&gt;
+
+&lt;p&gt;I worked a lot on this project during my time @ &lt;a href=&quot;http://www.defacto.nl/&quot;&gt;Defacto Software&lt;/a&gt;. It started out of frustrations with the time tracking application they used at the time, &lt;a href=&quot;https://github.com/jurre&quot;&gt;Jurre&lt;/a&gt;, &lt;a href=&quot;https://github.com/sn3p&quot;&gt;Matthijs&lt;/a&gt; and &lt;a href=&quot;https://github.com/dkhgh&quot;&gt;Hugo&lt;/a&gt; came up with this idea.&lt;/p&gt;
+
+&lt;p&gt;It was an extremely fun project to work on and it was picked up by a lot of people in the Rails community. This project is also where i gained so much Rails experience and launched my adventure into open source development.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/DefactoSoftware/Hours&quot;&gt;Github source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;https://camo.githubusercontent.com/9cee42ce5aa1398a6958799171f3fcb985e24e53/687474703a2f2f692e696d6775722e636f6d2f55476f74594a752e706e67&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/9cee42ce5aa1398a6958799171f3fcb985e24e53/687474703a2f2f692e696d6775722e636f6d2f55476f74594a752e706e67&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://camo.githubusercontent.com/c62b3d06095abb6db5463c963d2bec9e176b4586/687474703a2f2f692e696d6775722e636f6d2f535a64364f61772e706e67&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c62b3d06095abb6db5463c963d2bec9e176b4586/687474703a2f2f692e696d6775722e636f6d2f535a64364f61772e706e67&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://camo.githubusercontent.com/916c87b0c3a03a847945e9deb60395e21c9fd0de/687474703a2f2f692e696d6775722e636f6d2f674a7857576e632e706e67&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/916c87b0c3a03a847945e9deb60395e21c9fd0de/687474703a2f2f692e696d6775722e636f6d2f674a7857576e632e706e67&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Hours&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;See a &lt;a href=&quot;happyhours.io&quot;&gt;live version of Hours&lt;/a&gt; hosted on Heroku by &lt;a href=&quot;http://www.defacto.nl/&quot;&gt;Defacto&lt;/a&gt;.&lt;/p&gt;</content><category term="hours" /><category term="ruby" /><category term="rails" /><category term="open-source" /><summary>Simple time tracking application.</summary></entry></feed>
