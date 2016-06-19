@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-06-18T14:54:23+02:00</updated><id>http://localhost:4000/</id><title>Marthyn.nl</title><subtitle>Marthyn Olthof, software developer, home cook, runner, motorsports fan</subtitle><entry><title>Joy of Coding 2016</title><link href="http://localhost:4000/joy-of-coding/" rel="alternate" type="text/html" title="Joy of Coding 2016" /><published>2016-06-17T00:00:00+02:00</published><updated>2016-06-17T00:00:00+02:00</updated><id>http://localhost:4000/joy-of-coding</id><content type="html" xml:base="http://localhost:4000/joy-of-coding/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-06-19T11:23:23+02:00</updated><id>http://localhost:4000/</id><title>Marthyn.nl</title><subtitle>Marthyn Olthof, software developer, home cook, runner, motorsports fan</subtitle><entry><title>Joy of Coding 2016</title><link href="http://localhost:4000/joy-of-coding/" rel="alternate" type="text/html" title="Joy of Coding 2016" /><published>2016-06-17T00:00:00+02:00</published><updated>2016-06-17T00:00:00+02:00</updated><id>http://localhost:4000/joy-of-coding</id><content type="html" xml:base="http://localhost:4000/joy-of-coding/">&lt;blockquote&gt;
   &lt;p&gt;Celebrating the art, craft, science and joy of software development&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -6,18 +6,76 @@
 
 &lt;p&gt;For me this edition was as, if not more, inspiring as the last time. Last year it inspired me to develop a small &lt;a href=&quot;http://localhost:4000/hubot-praise&quot;&gt;Hubot plugin&lt;/a&gt; because of a talk by Ben Straub! This year once again there were many fun and inspiring talks, here is a list of my favourites.&lt;/p&gt;
 
-&lt;h1 id=&quot;philip-wadler&quot;&gt;Philip Wadler&lt;/h1&gt;
+&lt;h1 id=&quot;philip-wadlerhttpstwittercomphilipwadler&quot;&gt;&lt;a href=&quot;https://twitter.com/PhilipWadler&quot;&gt;Philip Wadler&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;Professor at Edinbrough university, a very very smart man. In the beginning I had quite a hard time following his talk on category theory. And I’d have trouble explaining to you what it is exactly. But it got my head churning and it was actually a great start of the day. It inspired me to read more into this category theory and in general to read more about origins of programming languages.&lt;/p&gt;
+&lt;p&gt;Professor at Edinburgh university, a very very smart man. In the beginning I had quite a hard time following his talk on category theory. And I’d have trouble explaining to you what it is exactly. But it got my head churning and it was actually a great start of the day. It inspired me to read more into this category theory and in general to read more about origins of programming languages.&lt;/p&gt;
 
 &lt;p&gt;It also helped that he is witty guy and he dressed as Lambda Man!!
 &lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;corey-haines&quot;&gt;Corey Haines&lt;/h1&gt;
+&lt;h1 id=&quot;corey-haineshttpstwittercomcoreyhaines&quot;&gt;&lt;a href=&quot;https://twitter.com/coreyhaines&quot;&gt;Corey Haines&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h1 id=&quot;peter-hilton&quot;&gt;Peter Hilton&lt;/h1&gt;
+&lt;p&gt;Corey Haines started by stating that he didn’t knew Prolog and so could we! His premise was that you should try and learn a new language every year, not for your job but purely for fun. This will open up your way of thinking and the way you solve problems.&lt;/p&gt;
 
-&lt;h1 id=&quot;hilary-parker&quot;&gt;Hilary Parker&lt;/h1&gt;</content><category term="joyofcoding" /><category term="fun" /><category term="conference" /><summary>2017 was my second year of the awesome 1 day conference Joy of Coding. It inspired me a lot, here is a recap of the most interesting things I learned</summary></entry><entry><title>Hubot praise</title><link href="http://localhost:4000/hubot-praise/" rel="alternate" type="text/html" title="Hubot praise" /><published>2015-08-04T00:00:00+02:00</published><updated>2015-08-04T00:00:00+02:00</updated><id>http://localhost:4000/hubot-praise</id><content type="html" xml:base="http://localhost:4000/hubot-praise/">&lt;center&gt;&lt;b&gt;hubot-praise&lt;/b&gt; is a Hubot plugin for praising your colleagues.&lt;/center&gt;
+&lt;p&gt;Prolog is a very interesting language, it is not a functional nor object oriented but a logical language. The way it works he said was “You state facts and ask questions and the system will find facts that prove the questions to be true”. So you don’t make a function in which you tell the system how to find the right variables.&lt;/p&gt;
+
+&lt;h2 id=&quot;grandparents&quot;&gt;Grandparents&lt;/h2&gt;
+
+&lt;p&gt;For example the parent() and grandparent principle.&lt;/p&gt;
+
+&lt;div class=&quot;language-prolog highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;david&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;john&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;jim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;david&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;steve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;jim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;nathan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;steve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;grandparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You state that david is the parent of john and jim the parent of david. When you call the grandparent function you pass in A (unassigned var) and david the system will find every variable that will make the statements in grandparent true.&lt;/p&gt;
+
+&lt;p&gt;He went on and made a little function that returned a drink based on a list of ingredients. But mainly he showed that there are many different ways of solving problems and it opened up my mind again.&lt;/p&gt;
+
+&lt;h1 id=&quot;peter-hiltonhttpstwittercompeterhilton&quot;&gt;&lt;a href=&quot;https://twitter.com/PeterHilton&quot;&gt;Peter Hilton&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;I met Peter Hilton a few times already at the Rotterdam.rb Ruby meetup and got a little sneak peek at his Joy of Coding, mainly the jokes. It was about code documentation and how you can make it easier for yourself, and also why you do really need it.&lt;/p&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+
+&lt;p&gt;“Code can tell you what a function does but not why”. That’s the main reason you should write documentation and you can do that in many ways. For example the extended git commit. As I also explained in a lightning talk at work once, commit messages should consist out of 1 line followed by a blank line and a paragraph explaining why you did what you said you did in the first line.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;Change name of function X
+
+I made it more descriptive so it&#39;s easier for new colleagues to understand why this method is there and what it does.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is obviously an exaggeration and you shouldn’t have to do this with every commit but sticking to this does force you to rethink, what am I actually committing?&lt;/p&gt;
+
+&lt;p&gt;Another form of documentation that inspired me was the “Today I Learned” repository. The idea is that every day you write a short summary of the things you learnt that day, which in the end results into a documented history of the work you did. Not only useful for colleagues but also for yourself since you have to recap for yourself too what you learnt, and it might force you to reread some stuff again. It might even make you realise you did something really stupid.&lt;/p&gt;
+
+&lt;p&gt;What I took from this talk is that writing what and why you do stuff is super important, not only for work but also on a personal level. It’s the reason I started writing blog posts again.&lt;/p&gt;
+
+&lt;h1 id=&quot;hilary-parkerhttpstwittercomhspter&quot;&gt;&lt;a href=&quot;https://twitter.com/hspter&quot;&gt;Hilary Parker&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Hilary Parker had the difficult job of ending the day with a plenary talk. Everyone was tired, and dreaming of the (free) beer, wine and food coming up in a few minutes. She knew this and addressed also that right now we might not be most interested in a talk about ‘data analysis’. With that the pressure was off in way.&lt;/p&gt;
+
+&lt;p&gt;She talked about her cats (like everyone) and about her former role at Etsy, a senior data analyst and her new job. Her talk was about a new type of person emerging in her field. Before her boss would want an all round dashboard in which he could see all the data ever. Something like that would be developed by an engineer and between the data analyst, engineer and the boss there were always problems, unachievable expectations and different views on the subject.&lt;/p&gt;
+
+&lt;p&gt;Her solution is the data developer. A data analyst that developer their own reports with a language that is easy enough to understand for someone without an engineering background but is powerful enough to automate the things they need to automate. She showed an amazing example, &lt;a href=&quot;http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html&quot;&gt;Knitr&lt;/a&gt;, in which you can use markdown and R together to make automated graphs from embedded R code chunks.&lt;/p&gt;
+
+&lt;p&gt;She made me think about something I’ve been noticing in different fields. Programming is no longer something that you have to to school for or that only a select group of people can use. Programming is becoming a staple like writing. It wouldn’t surprise me if in 10 years programming is part of basic education at the same level as reading and writing. What it also means for us programmers is that we need to excel and prove our worth in an ever changing but exciting field of work.&lt;/p&gt;
+
+&lt;h1 id=&quot;cats&quot;&gt;Cats&lt;/h1&gt;
+
+&lt;p&gt;They were all great talks but cats were the talk of the day, and even the weekend after Corey Haines and Hilary Parker are visiting &lt;a href=&quot;https://twitter.com/coreyhaines/status/744160526578630656&quot;&gt;some cats in Amsterdam&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So to end this post, here’s my kitty cat Pickles! See you next year!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/qU7zrjI.jpg&quot; alt=&quot;Pickles sunbathing&quot; /&gt;
+&lt;img src=&quot;https://i.imgur.com/KFswkfe.jpg&quot; alt=&quot;Pickles derping&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh also if you want to sponsor next year’s event, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#111;&amp;#064;&amp;#106;&amp;#111;&amp;#121;&amp;#111;&amp;#102;&amp;#099;&amp;#111;&amp;#100;&amp;#105;&amp;#110;&amp;#103;&amp;#046;&amp;#111;&amp;#114;&amp;#103;&quot;&gt;send an email&lt;/a&gt;&lt;/p&gt;</content><category term="joyofcoding" /><category term="fun" /><category term="conference" /><summary>2017 was my second year of the awesome 1 day conference Joy of Coding. It inspired me a lot, here is a recap of the most interesting things I learned</summary></entry><entry><title>Hubot praise</title><link href="http://localhost:4000/hubot-praise/" rel="alternate" type="text/html" title="Hubot praise" /><published>2015-08-04T00:00:00+02:00</published><updated>2015-08-04T00:00:00+02:00</updated><id>http://localhost:4000/hubot-praise</id><content type="html" xml:base="http://localhost:4000/hubot-praise/">&lt;center&gt;&lt;b&gt;hubot-praise&lt;/b&gt; is a Hubot plugin for praising your colleagues.&lt;/center&gt;
 
 &lt;p&gt;Do you use slack or hipchat or any other messaging platform that supports hubot and you wanna compliment or thank or just acknowledge the people you communicate with? Use hubot-praise, they get a random message telling them they’re awesome with an amazing GIF with it.&lt;/p&gt;
 
