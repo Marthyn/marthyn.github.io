@@ -1,3 +1,3 @@
-# Allow crawling of all content
+# Rule 2
 User-agent: *
-Disallow:
+Allow: /
