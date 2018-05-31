@@ -22,7 +22,7 @@ Yes, i purposefully did not put a capital letter in there, it's supposed to be s
 
 # What?
 
-Yeah it's a bastardization of 2 words, small and examples. The way I learned to write code was to do small little tutorials (same way I did my [photoshop adventure](https://marthijn1990.deviantart.com/art/Mo-Inc-Logo-49234887) in my teenage years. It worked really well for me because of the instant reward, I'm a sucker for instant rewards. A dangerous habit cause it makes you very prone to addiction. So smallxamples will (one day) be a giant repository of small code examples and tutorials. I do not know if I'm going to limit it to one file, but you have to be able to understand it within an hour. It also should be executable without much trouble
+Yeah it's a bastardization of 2 words, small and examples. The way I learned to write code was to do small little tutorials (same way I did my [photoshop adventure](https://marthijn1990.deviantart.com/art/Mo-Inc-Logo-49234887) in my teenage years). It worked really well for me because of the instant reward, I'm a sucker for instant rewards. A dangerous habit cause it makes you very prone to addiction. So smallxamples will (one day) be a giant repository of small code examples and tutorials. I do not know if I'm going to limit it to one file, but you have to be able to understand it within an hour. It also should be executable without much trouble
 
 # Where?
 
