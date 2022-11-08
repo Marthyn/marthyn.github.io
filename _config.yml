@@ -1,11 +1,8 @@
 # Site
 title:              Marthyn.nl
 bio:                |
-  My name is Marthyn Olthof and I am a software developer working at Hoppinger,
-  doing freelance development work and open source stuff in Ruby, Rails, Typescript and C#. Other than programming I love to watch sports,
-  especially with engines! The topic's I write about vary from tech, cooking, comics, movies,
-  sports and who knows whatever I'll find interesting!'
-description:        "Marthyn Olthof, software developer, home cook, runner, motorsports fan"
+  My name is Marthyn Olthof and I am a Software Engineer at Floryn! I am also the lead developer of Notivid in my spare time. When I'm not working I'm probably watching motorsports, running or playing/modding Farming Simulator!
+description:        "Marthyn Olthof, software engineer, runner, motorsports fan"
 reading_time:       true
 words_per_minute:   150
 logo:               'assets/img/logo.jpeg'
@@ -43,7 +40,7 @@ google:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              Marthyn@live.nl
+email:              info@voxapex.com
 twitter:            Marthyn
 facebook:           marthyn1337
 github:             Marthyn
@@ -55,9 +52,9 @@ lastfm:             marthijn1990
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-# steam:              username
+steam:              Marthyn1337
 #dribbble:          username
-#youtube:           username
+youtube:            MarthynOlthof
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
