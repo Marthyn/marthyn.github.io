@@ -58,6 +58,8 @@ GEM
     json (2.6.2)
     kramdown (2.4.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -93,6 +95,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
+    webrick (1.7.0)
     zeitwerk (2.6.6)
 
 PLATFORMS
@@ -106,6 +109,8 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   json
+  kramdown-parser-gfm
+  webrick
 
 BUNDLED WITH
    1.16.1
